@@ -59,7 +59,7 @@ class main(object):
         self.password=str(raw_input("\t        Enter Password      -"))
         if self.password=="":
             print"\tPassword can't be null !"
-            signup()#yahan pe dubara dalne ke lie bolna chie username aur passowrd or agr glti se null ho to maybe use signup dubara krale
+            signup()
         
         print""
         print"\t         Welcome To PAYSPACE !!!!"
@@ -233,7 +233,7 @@ class main(object):
         print"_"*45
         print"\t\t  ",self.board
         print"_"*45
-        print"\t Consumer Identity-",self.id                             #aur kuch jgh me name khali ara h bill details me
+        print"\t Consumer Identity-",self.id                             
         print"\t Name-",self.nam                                         
         print"\t Mobile Number-",self.mob
         print
@@ -268,7 +268,7 @@ class main(object):
         if self.amt1==0:
             pass
         else:
-            print""                                               #aur starting me faltu ka electricity bill paid dikha rha h 
+            print""                                               
             print"\tElectricity Bill paid to",self.board
             print"\tRs.",self.amt1,"Deducted From Wallet"
             print"\tOn",(now.strftime("%Y-%m-%d %H:%M"))
